@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					84AA46DE1F10490600D0622F = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 49L749T2T2;
 						ProvisioningStyle = Automatic;
 					};
 					84AA46F21F10490600D0622F = {
@@ -416,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49L749T2T2;
 				INFOPLIST_FILE = Zapros/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Admin.Zapros;
@@ -428,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49L749T2T2;
 				INFOPLIST_FILE = Zapros/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Admin.Zapros;
@@ -509,6 +512,7 @@
 				84AA47091F10490600D0622F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84AA470A1F10490600D0622F /* Build configuration list for PBXNativeTarget "ZaprosTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +521,7 @@
 				84AA470C1F10490600D0622F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84AA470D1F10490600D0622F /* Build configuration list for PBXNativeTarget "ZaprosUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				84AA470F1F10490600D0622F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

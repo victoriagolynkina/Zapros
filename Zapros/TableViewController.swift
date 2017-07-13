@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class TableViewController: UITableViewController {
     var listData = [[String: AnyObject]]()
@@ -62,15 +63,21 @@ class TableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return self.listData.count
     }
+    func loadData() {
+        
+        DispatchQueue.main.async {
+            
+            self.tableView.reloadData()
+        }
+    }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
         // Configure the cell...
        let item = self.listData[indexPath.row]
       cell.textLabel?.text = item["title"] as? String
-      
+     cell.detailTextLabel?.text = item["body"] as? String
         return cell
     }
  
